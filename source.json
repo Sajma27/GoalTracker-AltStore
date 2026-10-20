@@ -15,6 +15,16 @@
       "tintColor": "#209E57",
       "versions": [
         {
+          "version": "1.2",
+          "buildVersion": "3",
+          "date": "2026-10-21",
+          "localizedDescription": "GoalTracker 1.2 (build 3)\n\n- Dark mode enabled by default, with Dark / Light / System choices in Settings \u2192 Appearance.\n- Adaptive green accents for readable contrast in both themes.\n- Includes typed playing time, 90-minute / 20:00 defaults, combined month and weekday filters, and expanded statistics from 1.1.\n- Existing history is preserved. Update through the same AltStore Classic source.\n\nThe Garmin private beta uses the simplified two-card counter. Final Garmin store submission remains pending contact-email and developer-terms approval.",
+          "downloadURL": "https://github.com/Sajma27/GoalTracker-AltStore/releases/download/v1.2-3/GoalTracker-1.2-3.ipa",
+          "size": 392403,
+          "sha256": "747e8ed557c5248e9349f543838116ca1dc7cb883e6960fd0e72d0d151e082a2",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.1",
           "buildVersion": "2",
           "date": "2026-10-21",
