@@ -15,6 +15,16 @@
       "tintColor": "#209E57",
       "versions": [
         {
+          "version": "1.1",
+          "buildVersion": "2",
+          "date": "2026-10-21",
+          "localizedDescription": "GoalTracker 1.1 (build 2)\n\n- Faster manual game entry: type minutes with the number pad. New games default to 90 minutes and 20:00 on the selected day.\n- Filter statistics by weekday and month together with year/all-years.\n- Added assists and contributions per game, per-90 rates, average playing time, scoring/contribution consistency, hat-tricks and best game records.\n- Existing match history and Garmin-recorded times are preserved.\n\n10 core tests pass. Physical-watch touch/sync, Garmin Connect summaries and AltStore re-signing still require device validation.",
+          "downloadURL": "https://github.com/Sajma27/GoalTracker-AltStore/releases/download/v1.1-2/GoalTracker-1.1-2.ipa",
+          "size": 384964,
+          "sha256": "558a0b1b9ac7d28db6f844b86508a4e7413f57ba1c62979d88a64d0ca56e6511",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0",
           "buildVersion": "1",
           "date": "2026-10-21",
