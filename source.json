@@ -12,7 +12,7 @@
       "subtitle": "Goals, assists and match days",
       "localizedDescription": "Track casual football games with a touch screen inside the standard Garmin Football activity. Review game logs, add notes, browse your calendar and see your totals. Requires the GoalTracker Garmin data field for watch import; manual match logging works independently.",
       "iconURL": "https://raw.githubusercontent.com/Sajma27/GoalTracker-AltStore/main/icon.png",
-      "tintColor": "209E57",
+      "tintColor": "#209E57",
       "versions": [
         {
           "version": "1.0",
@@ -27,12 +27,9 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": [
-          {
-            "name": "BluetoothAlways",
-            "usageDescription": "GoalTracker receives match goals and assists from your paired Garmin watch."
-          }
-        ]
+        "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "GoalTracker receives match goals and assists from your paired Garmin watch."
+        }
       }
     }
   ],
