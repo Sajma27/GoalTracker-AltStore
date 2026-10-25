@@ -15,6 +15,16 @@
       "tintColor": "#209E57",
       "versions": [
         {
+          "version": "1.2.1",
+          "buildVersion": "4",
+          "date": "2026-10-26",
+          "localizedDescription": "GoalTracker 1.2.1 (build 4)\n\n- Sync match history now shows progress, actionable Garmin errors, and a 30-second timeout.\n- The updated Garmin field reports queued logs, an empty queue, or an active session.\n- Retained offline counters are recovered for review when no recording is active, even if the original reset callback was missed.\n- Reopening the iPhone app preserves an already ready watch connection. Last received persists across launches.\n\nUpdate both the iPhone app and the GoalTracker Garmin data field in place. Display GoalTracker inside Football and keep the iPhone app open for transfer. Confirm received games before counting them in statistics.\n\nExisting match history is preserved. Garmin Connect activity sync remains separate. Twelve Swift and twelve Garmin simulator tests pass; physical-device transfer still needs validation.",
+          "downloadURL": "https://github.com/Sajma27/GoalTracker-AltStore/releases/download/v1.2.1-4/GoalTracker-1.2.1-4.ipa",
+          "size": 407965,
+          "sha256": "c4699d66333f5f9e5b0ed101fca45ccf3379dbaad3ba146b8d887d08c885ab23",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.2",
           "buildVersion": "3",
           "date": "2026-10-21",
