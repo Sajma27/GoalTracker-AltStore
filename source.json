@@ -15,6 +15,16 @@
       "tintColor": "#209E57",
       "versions": [
         {
+          "version": "1.2.2",
+          "buildVersion": "5",
+          "date": "2026-10-26",
+          "localizedDescription": "GoalTracker 1.2.2 (build 5)\n\n- Automatic sync now waits one hour between attempts, including failed attempts, and remembers the cooldown across app launches.\n- Pull down on Matches to sync immediately. Manual requests bypass the cooldown and restart its timer.\n- A spinner and Syncing\u2026 indicator appear in the Matches header while waiting for completion, an error, or timeout.\n- The sync result appears on Matches. Repeated pulls join the existing request instead of sending duplicates.\n- Queued-batch progress waits for distinct logs, and timeout messages distinguish no response from an incomplete transfer.\n\nUpdate through the existing AltStore source. Existing history is preserved. No additional Garmin field update is required for these phone changes. Keep GoalTracker visible inside Football and the iPhone app open during transfer; Garmin Connect activity history uses a separate sync path.\n\nAll 17 Swift core tests pass. Header layout was checked in a simulator UI fixture with a simulated transfer; a physical-watch transfer still needs validation.",
+          "downloadURL": "https://github.com/Sajma27/GoalTracker-AltStore/releases/download/v1.2.2-5/GoalTracker-1.2.2-5.ipa",
+          "size": 430900,
+          "sha256": "26510aaa5a982ea48aabd361e6c03b3e2aeacf0435c5bb62ea1f2183f11b9670",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.2.1",
           "buildVersion": "4",
           "date": "2026-10-26",
