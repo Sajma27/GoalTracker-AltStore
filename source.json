@@ -10,10 +10,20 @@
       "bundleIdentifier": "com.3IT.GoalTracker",
       "developerName": "Sajma",
       "subtitle": "Goals, assists and match days",
-      "localizedDescription": "Track casual football games with a touch screen inside the standard Garmin Football activity. Review game logs, add notes, browse your calendar and see your totals. Requires the GoalTracker Garmin data field for watch import; manual match logging works independently.",
+      "localizedDescription": "Track casual football games inside the standard Garmin Football activity. Download saved goals and assists from Garmin Connect, add notes, browse your calendar and see your totals. Garmin import requires the GoalTracker data field and a Garmin Personal API key; manual match logging works independently.",
       "iconURL": "https://raw.githubusercontent.com/Sajma27/GoalTracker-AltStore/main/icon.png",
       "tintColor": "#209E57",
       "versions": [
+        {
+          "version": "1.3.0",
+          "buildVersion": "6",
+          "date": "2026-10-26",
+          "localizedDescription": "GoalTracker 1.3.0 (6)\n\nDownload your saved Football stats directly from Garmin Connect. You no longer need to reopen GoalTracker on the watch to transfer a match.\n\nSet up your Garmin Personal API key in Settings \u2192 Garmin Connect. The key stays securely in this iPhone\u2019s Keychain. Save Football and let Garmin Connect upload it as usual, then pull down on Matches to import Goals and Assists.\n\nAutomatic checks retain the one-hour cooldown. Pull-to-refresh and the header syncing indicator remain available. Newly downloaded saved matches count in statistics automatically. Existing match notes, names and statistics choices are preserved; matching older watch logs are linked without adding duplicates.\n\nRequires an internet connection, a Garmin Personal API key and the GoalTracker watch field. Garmin 1.0.1 already records the required fields; update to Garmin 1.0.2 to remove the old 30-log recording limit. Authenticated import of a real activity still needs verification after setup on your iPhone.",
+          "downloadURL": "https://github.com/Sajma27/GoalTracker-AltStore/releases/download/v1.3.0-6/GoalTracker-1.3.0-6.ipa",
+          "size": 1937313,
+          "sha256": "e7f68b2dac3acd586f37e17b7a2e9bd715c48b5b329cf11f1a5eb3d12bb9dcf8",
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.2.2",
           "buildVersion": "5",
@@ -67,9 +77,7 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "GoalTracker receives match goals and assists from your paired Garmin watch."
-        }
+        "privacy": {}
       }
     }
   ],
